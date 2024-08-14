@@ -19,13 +19,15 @@ body{
     background-color: rgb(19, 19, 19);
 }
 
-.navbar, .banner, .habits{
+.navbar, .banner, .habits, .run, .bmi, .meet{
     max-width: 1060px;
     margin: 0 auto;
 }
 
 
 /* shared styles */
+
+
 .bg-pri{
     background-image: linear-gradient( rgba(17, 17, 17, 1),rgba(119, 119, 119, 0));
 
@@ -38,6 +40,13 @@ body{
     font-size: 3rem;
     font-weight: 900px;
 }
+.desctiption-text{
+    font-size: 0.875rem;
+    color:rgba(255, 255, 255, 0.5);
+}
+.center{
+    text-align: center;
+}
 .text-orange{
     color: rgba(230, 83, 60, 1);
 }
@@ -47,6 +56,7 @@ body{
 .text-light-white{
     color:rgba(255, 255, 255, 0.5);
 }
+
 .btn-primary{
     background-color: rgba(230, 83, 60, 1);
     padding: 16px 46px;
@@ -57,7 +67,16 @@ body{
     font-weight: 600px;
 
 }
+.btn-primary2{
+    background-color: rgba(230, 83, 60, 1);
+    padding: 16px 70px;
+    border-radius: 42px;
+    border: none;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600px;
 
+}
 .btn-secondary{
     /* background-color: rgba(230, 83, 60, 1); */
     background: transparent;
@@ -137,5 +156,57 @@ font-weight: ;
 }
 .habits-description{
     text-align: center;
-
 }
+
+.habits-cards{
+    gap: 40px;
+}
+
+.habits-cards img{
+    border-radius: 50%;
+}
+
+.habits-card {
+
+    text-align: center;
+}
+.habits-card-title{
+    font-size: 1.125rem;
+    color: white;
+    font-weight: 600px;
+}
+.habits-card-description{
+    
+}
+
+/* run section */
+
+.run{
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 18px;
+}
+.run-content{
+    padding: 54px;
+}
+.run-content-description{
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
