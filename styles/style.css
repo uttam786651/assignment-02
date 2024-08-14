@@ -39,6 +39,7 @@ body{
     color: white;
     font-size: 3rem;
     font-weight: 900px;
+   
 }
 .desctiption-text{
     font-size: 0.875rem;
@@ -184,15 +185,29 @@ font-weight: ;
 .run{
     background-color: rgba(34, 34, 34, 1);
     border-radius: 18px;
+    justify-content: space-between;
 }
 .run-content{
-    padding: 54px;
+    margin: 54px;
+    max-width: 443px;
+    border: 1px solid rebeccapurple;
 }
 .run-content-description{
     padding-bottom: 50px;
 }
+.run-img{
+    margin: 32px;
+    border: 1px solid rgb(255, 0, 0);
+    
+}
+.run-img img{
+    width: 100%;
+    border-radius: 18px;
+}
 
-
+.bmi-content{
+    
+}
 
 
 
