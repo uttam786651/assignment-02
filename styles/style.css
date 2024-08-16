@@ -309,7 +309,7 @@ line-height: 120%;
         justify-content: space-between;
         gap: 12px;
         position: absolute;
-        bottom: 300px;
+        bottom: 200px;
         left: 10px;
     }
     .video-tutorial-content h3{
@@ -333,8 +333,8 @@ line-height: 120%;
         justify-content: space-between;
         gap: 12px;
         position: absolute;
-        top: 175px;
-        right: -90px;
+        top: 275px;
+        right: -20px;
     }
     .free-workout h3{
         margin: 0px;
@@ -359,7 +359,7 @@ line-height: 120%;
     }
     .btn-primary{
         background-color: rgba(230, 83, 60, 1);
-        padding: 14px 30px;
+        padding: 16px 30px;
         border-radius: 42px;
         border: none;
         color: white;
@@ -367,17 +367,16 @@ line-height: 120%;
         font-weight: 600px;
         cursor: pointer;
     }
-    .btn-primary2{
-        background-color: rgba(230, 83, 60, 1);
-        padding: 14px 30px;
+    .btn-secondary{
+        background: transparent;
+        padding: 16px 30px;
         border-radius: 42px;
-        border: none;
+        border: 1px solid white;
         color: white;
         font-size: 1.125rem;
         font-weight: 600px;
         cursor: pointer;
     }
-
 
 }
 
