@@ -15,6 +15,7 @@
 }
 body{
     background-color: rgb(0, 0, 0);
+    margin: 0px;
 }
 .navbar, .banner, .habits, .run, 
 .bmi-contents, .meet, 
@@ -189,6 +190,9 @@ padding: 3px;
 font-size: 4.875rem;
 line-height: 120%;
 }
+.banner-text{
+    margin-bottom: 28px;
+}
 .banner-img{
     background-image: url(../images/Images-banner.png);
     width: 350px;
@@ -213,9 +217,11 @@ line-height: 120%;
 .circle{
     width: 40px;
     height: 40px;
+    font-size: 1.75rem;
     border-radius: 50%;
     background-color: rgba(230, 83, 60, 1);
 }
+
 .video-tutorial-content h3{
     margin: 0px;
     margin-bottom: 12px;
@@ -257,8 +263,11 @@ line-height: 120%;
 
 /* responsive media query */
 @media screen and (max-width: 576px){
+    .navbar{
+        margin:  0px 20px;
+    }
     .navbar, .nav-links{
-  
+        
         justify-content: space-between;
     }
     .nav-div{
@@ -267,6 +276,9 @@ line-height: 120%;
     .side-menu{
         display:grid;
 
+    }
+    .banner{
+        margin:  0px 20px;
     }
     .banner-heading{
         font-size: 2.5rem;
@@ -288,7 +300,7 @@ line-height: 120%;
         width: 100vw;
     }
     .video-tutorial{
-        width: 170px;
+        width: 145px;
         border-radius: 12px;
         backdrop-filter: blur(10px);
         background-color: rgba(71, 71, 71, 0.479);
@@ -300,8 +312,19 @@ line-height: 120%;
         bottom: 300px;
         left: 10px;
     }
+    .video-tutorial-content h3{
+        margin: 0px;
+        margin-bottom: 12px;
+        color: white;
+        font-size: 1.25rem;
+    }
+    .video-tutorial-content p{
+        margin: 0px;
+        color: rgba(239, 237, 232, 0.65);
+        font-size: 0.85rem;
+    }
     .free-workout{
-        width: 170px;
+        width: 135px;
         border-radius: 12px;
         backdrop-filter: blur(10px);
         background-color: rgba(71, 71, 71, 0.479);
@@ -310,11 +333,49 @@ line-height: 120%;
         justify-content: space-between;
         gap: 12px;
         position: absolute;
-        top: 125px;
-        right: -120px;
+        top: 175px;
+        right: -90px;
+    }
+    .free-workout h3{
+        margin: 0px;
+        margin-bottom: 12px;
+        color: white;
+        font-size: 1.5rem;
+    }
+    .free-workout p{
+        margin: 0px;
+        color: rgba(239, 237, 232, 0.65);
+        font-size: 0.8rem;
     }
     .banner-img{
         background-image: none;
+    }
+    .play-button{
+        display: grid;
+        margin:  0px auto;
+        margin-top: 7px;
+        margin-left: 11px;
+        cursor: pointer;
+    }
+    .btn-primary{
+        background-color: rgba(230, 83, 60, 1);
+        padding: 14px 30px;
+        border-radius: 42px;
+        border: none;
+        color: white;
+        font-size: 1.125rem;
+        font-weight: 600px;
+        cursor: pointer;
+    }
+    .btn-primary2{
+        background-color: rgba(230, 83, 60, 1);
+        padding: 14px 30px;
+        border-radius: 42px;
+        border: none;
+        color: white;
+        font-size: 1.125rem;
+        font-weight: 600px;
+        cursor: pointer;
     }
 
 
@@ -759,8 +820,10 @@ margin:  0px 20px;
 /* responsive media query */
 @media screen and (max-width: 576px){
 
+    }
     .footer-content{
         flex-direction: column;
+        margin-left: 20px;
     }
     .footer-menu-content{
         flex-direction: column;
