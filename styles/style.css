@@ -562,19 +562,7 @@ line-height: 120%;
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.6);
   }
-  .sex select {
-    display: none;
-  }
-  .sex:after {
-    position: absolute;
-    content: "";
-    top: 14px;
-    right: 10px;
-    width: 0;
-    height: 0;
-    border: 6px solid transparent;
-    border-color: #fff transparent transparent transparent;
-  }
+
 
 /* responsive media query */
 @media screen and (max-width: 576px){
@@ -599,6 +587,23 @@ line-height: 120%;
     .bmi-heading{
         margin: 20px;
     }
+    .calculate{
+        width: 100%;
+        padding: 0px 10px;
+        margin-bottom: 52px;
+        margin-right: 50px;
+    }
+
+    .weight{
+        width: 60%;
+    }
+    .sex{
+        width: 79%;
+    }
+    .factor{
+        width: 90%;
+    }
+
 }
 
 
@@ -825,7 +830,7 @@ margin:  0px 20px;
 /* responsive media query */
 @media screen and (max-width: 576px){
 
-    }
+    
     .footer-content{
         flex-direction: column;
         margin-left: 20px;
