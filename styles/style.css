@@ -476,7 +476,10 @@ line-height: 120%;
     .run{
         flex-direction: column;
     }
+    .run-img2{
+        width: 100%;
 
+    }
    
 }
 
