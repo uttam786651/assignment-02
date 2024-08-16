@@ -300,7 +300,8 @@ line-height: 120%;
     }
     .img-banner-none{
         display: grid;
-        width: 90vw;
+        width: 100;
+        height: auto;
     }
     .video-tutorial{
         width: 145px;
