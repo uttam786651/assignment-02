@@ -1,4 +1,8 @@
-
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/miama');
 
@@ -581,9 +585,6 @@ line-height: 120%;
     .bmi-calculator-content h3{
         margin-left: 20px;
     }
-    .calculate{
-        margin: 20px;
-    }
     .bmi-heading{
         margin: 20px;
     }
@@ -591,14 +592,14 @@ line-height: 120%;
         width: 100%;
         padding: 0px 10px;
         margin-bottom: 52px;
-        margin-right: 50px;
+        /* margin-right: 50px; */
     }
 
     .weight{
         width: 60%;
     }
     .sex{
-        width: 79%;
+        width: 80%;
     }
     .factor{
         width: 90%;
